@@ -40,8 +40,7 @@ class TaskManager:
         # Title label
         title_label = tk.Label(main_frame, text="Task Manager", font=("Arial", 16, "bold"))
         title_label.pack(pady=5)
-        
-        # Date display
+
         self.date_label = tk.Label(main_frame, text=self.current_date, font=("Arial", 12))
         self.date_label.pack(pady=5)
         
