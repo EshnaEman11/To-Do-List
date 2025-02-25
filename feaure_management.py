@@ -284,4 +284,5 @@ class TaskManager:
 if __name__ == "__main__":
     root = tk.Tk()
     app = TaskManager(root)
+    print("Hello")
     root.mainloop()
