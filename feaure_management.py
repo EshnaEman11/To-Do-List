@@ -162,7 +162,7 @@ class TodoApp:
         self.task_listbox.delete(0, tk.END)
     
     def save_tasks(self):
-        """Save tasks to file"""
+        """Save tasks to JSON file"""
         self.file_handler.save_tasks(self.tasks)
 
 if __name__ == "__main__":
