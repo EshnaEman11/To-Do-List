@@ -125,7 +125,7 @@ class TodoApp:
                 self.tasks[self.current_date] = []
             
             self.tasks[self.current_date].append({
-                "text is this:": task_text,
+                "text": task_text,
                 "completed": False
             })
             
